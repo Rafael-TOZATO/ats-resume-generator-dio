@@ -1,5 +1,5 @@
 <p align="center">
-  <img src="https://ats-resume-generator-dio.vercel.app/ats-resume-optimizer-banner.png" alt="ATS Resume Optimizer Pro Banner" width="100%">
+  <img src="banner_ats_resume_optimizer_pro.jpg" alt="ATS Resume Optimizer Pro Banner" width="100%">
 </p>
 
 <h1 align="center">🚀 ATS Resume Optimizer Pro</h1>
@@ -25,13 +25,13 @@
 - 🌐 **Aplicação Online (Deploy em Produção):** [https://ats-resume-generator-dio.vercel.app/](https://ats-resume-generator-dio.vercel.app/)
 - 💻 **Repositório do Código:** [https://github.com/Rafael-TOZATO/ATS-Resume-Gerador-DIO](https://github.com/Rafael-TOZATO/ATS-Resume-Gerador-DIO)
 
-## 📬 Contatos
+## 📬 Contatos Profissionais
 
 - 💼 **LinkedIn:** [rafaeltozato81](https://www.linkedin.com/in/rafaeltozato81)
 - 🐙 **GitHub:** [Rafael-TOZATO](https://github.com/Rafael-TOZATO)
 - ✍️ **Medium:** [@ornelas.tozato](https://medium.com/@ornelas.tozato)
 - 🌐 **Portfólio PWA:** [tozato-dev-hub.vercel.app](https://tozato-dev-hub.vercel.app)
-- 🚀 **Aurora BI (Lovable):** [aurora-bi-dio.lovable.app](https://aurora-bi-dio.lovable.app)
+- 🚀 **Aurora BI:** [aurora-bi-dio.lovable.app](https://aurora-bi-dio.lovable.app)
 
 ---
 
@@ -45,18 +45,18 @@ O **ATS Resume Optimizer Pro** é uma aplicação web corporativa criada para re
    - Comparador side-by-side de duas colunas (Descrição da Vaga vs. Currículo do Candidato).
    - Realce de termos-chave encontrados (destaque verde) e lacunas pendentes (destaque vermelho/âmbar).
 3. **Gerador Dinâmico de `.docx`:** Exportação instantânea e formatada diretamente no navegador via biblioteca `docx`.
-4. **Governança e Etica Profissional:** Mecanismos de alerta e orientação reforçando que a ferramenta otimiza a apresentação sem falsificar qualificações.
+4. **Governança e Ética Profissional:** Mecanismos de alerta e orientação reforçando que a ferramenta otimiza a apresentação sem falsificar qualificações.
 
 ---
 
 ## 🛠️ Engenharia de Contorno & Troubleshooting (Narrativa Técnica)
 
-Durante o desenvolvimento deste desafio, identificou-se um impedimento de cota/créditos na plataforma inicial prevista (Lovable).
+Durante o desenvolvimento deste desafio, identificou-se um impedimento de cota/créditos na plataforma inicial prevista.
 
-Em alinhamento com a postura profissional e autônoma exigida na engenharia de software, aplicou-se a seguinte estratégia de resiliência:
-1. **Mapeamento da Restrição:** Isolamento do gargalo na camada de infraestrutura/gerador, mantendo os requisitos da solução intactos.
-2. **Migração Paritária:** Reexecução limpa do Mega Prompt na engine **v0.dev (Vercel)**, mantendo 100% da paridade técnica na stack (React, Tailwind CSS, `shadcn/ui` e TypeScript).
-3. **Pipeline CI/CD Automático:** Sincronização direta com o ecossistema GitHub e deploy de produção de alta performance na Vercel.
+Em alinhamento com a postura profissional, autônoma e resiliente exigida na engenharia de software moderna, aplicou-se a seguinte estratégia:
+1. **Mapeamento da Restrição:** Isolamento do gargalo tecnológico na camada de infraestrutura inicial, mantendo intactos todos os requisitos funcionais e arquiteturais.
+2. **Migração Paritária:** Execução limpa do Mega Prompt na engine de alta performance **v0.dev (Vercel)**, garantindo 100% de paridade técnica na stack (React, Tailwind CSS, `shadcn/ui` e TypeScript).
+3. **Pipeline CI/CD Automático:** Sincronização direta com o ecossistema GitHub e publicação contínua em ambiente de produção na Vercel.
 
 ---
 
