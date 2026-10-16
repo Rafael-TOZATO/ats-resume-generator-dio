@@ -14,6 +14,7 @@
   <img src="https://img.shields.io/badge/React-20232A?style=for-the-badge&logo=react&logoColor=61DAFB" alt="React">
   <img src="https://img.shields.io/badge/Tailwind_CSS-38B2AC?style=for-the-badge&logo=tailwind-css&logoColor=white" alt="Tailwind CSS">
   <img src="https://img.shields.io/badge/TypeScript-007ACC?style=for-the-badge&logo=typescript&logoColor=white" alt="TypeScript">
+  <img src="https://img.shields.io/badge/Replit-Homologado-green?style=for-the-badge&logo=replit&logoColor=white" alt="Replit Homologado">
   <img src="https://img.shields.io/badge/Vercel-000000?style=for-the-badge&logo=vercel&logoColor=white" alt="Vercel">
   <img src="https://img.shields.io/badge/DIO-Challenge-orange?style=for-the-badge" alt="DIO Challenge">
 </p>
@@ -57,6 +58,15 @@ Em alinhamento com a postura profissional, autônoma e resiliente exigida na eng
 1. **Mapeamento da Restrição:** Isolamento do gargalo tecnológico na camada de infraestrutura inicial, mantendo intactos todos os requisitos funcionais e arquiteturais.
 2. **Migração Paritária:** Execução limpa do Mega Prompt na engine de alta performance **v0.dev (Vercel)**, garantindo 100% de paridade técnica na stack (React, Tailwind CSS, `shadcn/ui` e TypeScript).
 3. **Pipeline CI/CD Automático:** Sincronização direta com o ecossistema GitHub e publicação contínua em ambiente de produção na Vercel.
+
+---
+
+## ☁️ Homologação e Ambiente Nuvem
+
+Esta aplicação foi importada e homologada no ambiente de execução em nuvem **Replit**, onde foram validados com sucesso:
+- Instalação automatizada de dependências e configuração do gerenciador de pacotes (`pnpm`).
+- Compilação e tipagem correta via TypeScript.
+- Inicialização do servidor de desenvolvimento na porta 3000 com resposta `HTTP 200` garantida na pré-visualização web.
 
 ---
 
