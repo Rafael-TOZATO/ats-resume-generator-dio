@@ -28,18 +28,6 @@
 
 ---
 
-## 📬 Contatos
-
-- 💼 **LinkedIn:** [rafaeltozato81](https://www.linkedin.com/in/rafaeltozato81)
-- 🐙 **GitHub:** [Rafael-TOZATO](https://github.com/Rafael-TOZATO)
-- ✍️ **Medium:** [@ornelas.tozato](https://medium.com/@ornelas.tozato)
-- 🌐 **Portfólio PWA (Dev Hub):** [tozato-dev-hub.vercel.app](https://tozato-dev-hub.vercel.app)
-- 🌐 **H-Folio:** [h-folio-psi.vercel.app](https://h-folio-psi.vercel.app)
-- 🚀 **Aurora BI (Lovable):** [aurora-bi-dio.lovable.app](https://aurora-bi-dio.lovable.app)
-- 📜 **Microsoft Learn:** [Transcript](https://learn.microsoft.com/pt-br/users/rafaelornelastozato-2209/transcript/dzo2wizrzkx2853)
-
----
-
 ## 🎯 Sobre o Projeto
 
 O **ATS Resume Optimizer Pro** é uma aplicação web corporativa criada para resolver um dos maiores desafios de candidatos no mercado de trabalho atual: a aprovação em **Sistemas de Rastreamento de Candidatos (ATS - Applicant Tracking Systems)**.
@@ -87,3 +75,25 @@ Criar uma SPA corporativa em React, Tailwind CSS e componentes shadcn/ui para an
 2. Aba 1: Dashboard de Compatibilidade (KPIs, Taxa de Match e Total de Análises).
 3. Aba 2: Editor & Otimizador ATS (Comparador 2 colunas, termos encontrados/pendentes, exportador .docx).
 4. Aba 3: Sobre o Projeto & Resiliência.
+
+---
+
+## 💻 PROJETOS E PORTFÓLIOS
+- **App Ecosystem:** [tozato-ai-core.vercel.app](https://tozato-ai-core.vercel.app)
+- **H-Folio:** [h-folio-l0.vercel.app](https://h-folio-l0.vercel.app)
+
+## 🐙 CÓDIGO E REPOSITÓRIOS
+- **GitHub:** [github.com/Rafael-TOZATO](https://github.com/Rafael-TOZATO)
+
+## ✍️ ARTIGOS E PUBLICAÇÕES
+- **Medium:** [medium.com/@ornelas.tozato](https://medium.com/@ornelas.tozato)
+
+## 🪟 MICROSOFT LEARN
+- **Perfil:** [rafaelornelastozato-2209](https://learn.microsoft.com/pt-br/users/rafaelornelastozato-2209)
+
+## 📬 CONTATOS
+- **E-mail:** ornelas.tozato@gmail.com
+- **LinkedIn:** [rafaeltozato81](https://www.linkedin.com/in/rafaeltozato81)
+- **GitHub:** [Rafael-TOZATO](https://github.com/Rafael-TOZATO)
+- **Dev Hub:** [tozato-ai-core.vercel.app](https://tozato-ai-core.vercel.app)
+
