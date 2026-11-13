@@ -1,20 +1,44 @@
 name: Dependency Review
 
 on:
+  push:
+    branches: [main]
   pull_request:
     branches: [main]
+  workflow_dispatch:
 
 permissions:
   contents: read
 
+concurrency:
+  group: dependency-review-${{ github.ref }}
+  cancel-in-progress: true
+
 jobs:
-  dependency-review:
-    name: Dependency Review
+  dependency-audit:
+    name: Audit direct and transitive dependencies
     runs-on: ubuntu-latest
-    permissions:
-      contents: read
+    timeout-minutes: 15
     steps:
-      - name: Review dependency changes
-        uses: actions/dependency-review-action@v5
+      - name: Checkout
+        uses: actions/checkout@v6
         with:
-          fail-on-severity: high
+          persist-credentials: false
+
+      - name: Set up pnpm
+        uses: pnpm/action-setup@v6.1.1
+        with:
+          version: 12.3.4
+          run_install: false
+
+      - name: Set up Node.js
+        uses: actions/setup-node@v6
+        with:
+          node-version: 24
+          cache: pnpm
+
+      - name: Install from frozen lockfile
+        run: pnpm install --frozen-lockfile
+
+      - name: Block high and critical dependency advisories
+        run: pnpm audit --audit-level high
