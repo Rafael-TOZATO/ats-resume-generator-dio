@@ -16,7 +16,6 @@ import {
   Gauge,
   Info,
   LayoutDashboard,
-  Linkedin,
   Menu,
   Minus,
   MoreHorizontal,
