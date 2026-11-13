@@ -38,7 +38,7 @@ jobs:
         run: pnpm add shadcn@4.23.0
 
       - name: Apply patched transitive dependency versions
-        run: pnpm audit --fix=update
+        run: pnpm audit --fix=update --audit-level high
 
       - name: Install from updated lockfile
         run: pnpm install --frozen-lockfile
