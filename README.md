@@ -21,12 +21,6 @@
 
 ---
 
----
-
----
-
----
-
 ## 🎯 Sobre o Projeto
 
 O **ATS Resume Optimizer Pro** é uma aplicação web corporativa criada para resolver um dos maiores desafios de candidatos no mercado de trabalho atual: a aprovação em **Sistemas de Rastreamento de Candidatos (ATS - Applicant Tracking Systems)**.
@@ -41,12 +35,6 @@ O **ATS Resume Optimizer Pro** é uma aplicação web corporativa criada para re
 
 ---
 
----
-
----
-
----
-
 ## 🛠️ Engenharia de Contorno & Troubleshooting (Narrativa Técnica)
 
 Durante o desenvolvimento deste desafio, identificou-se um impedimento de cota/créditos na plataforma inicial prevista.
@@ -58,24 +46,12 @@ Em alinhamento com a postura profissional, autônoma e resiliente exigida na eng
 
 ---
 
----
-
----
-
----
-
 ## ☁️ Homologação e Ambiente Nuvem
 
 Esta aplicação foi importada e homologada no ambiente de execução em nuvem **Replit**, onde foram validados com sucesso:
 - Instalação automatizada de dependências e configuração do gerenciador de pacotes (`pnpm`).
 - Compilação e tipagem correta via TypeScript.
 - Inicialização do servidor de desenvolvimento na porta 3000 com resposta `HTTP 200` garantida na pré-visualização web.
-
----
-
----
-
----
 
 ---
 
@@ -92,10 +68,6 @@ Criar uma SPA corporativa em React, Tailwind CSS e componentes shadcn/ui para an
 2. Aba 1: Dashboard de Compatibilidade (KPIs, Taxa de Match e Total de Análises).
 3. Aba 2: Editor & Otimizador ATS (Comparador 2 colunas, termos encontrados/pendentes, exportador .docx).
 4. Aba 3: Sobre o Projeto & Resiliência.
-
-```
-
----
 
 ---
 
@@ -123,9 +95,6 @@ Este repositório adota controles automatizados de Governança 4.0 para assegura
 - **Dependências:** monitoramento automatizado e revisão de vulnerabilidades conforme os manifests e lockfiles existentes.
 - **Menor privilégio:** permissões mínimas nos workflows e checkout sem persistência desnecessária de credenciais.
 - **Rastreabilidade:** commits, execuções e resultados dos controles permanecem registrados no GitHub Actions.
-
-
-
 
 ---
 
@@ -156,6 +125,5 @@ Este repositório adota controles automatizados de Governança 4.0 para assegura
 - **GitHub:** [Rafael-TOZATO](https://github.com/Rafael-TOZATO)
 - **Dev Hub:** [tozato-ai-core.vercel.app](https://tozato-ai-core.vercel.app)
 
----
 - 🌐 **Aplicação Online (Deploy em Produção):** [https://ats-resume-generator-dio.vercel.app/](https://ats-resume-generator-dio.vercel.app/)
 - 💻 **Repositório do Código:** [https://github.com/Rafael-TOZATO/ATS-Resume-Gerador-DIO](https://github.com/Rafael-TOZATO/ATS-Resume-Gerador-DIO)
