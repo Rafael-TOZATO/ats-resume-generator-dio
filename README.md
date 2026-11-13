@@ -21,10 +21,14 @@
 
 ---
 
+---
+
 ## 🔗 Links Oficiais do Projeto
 
 - 🌐 **Aplicação Online (Deploy em Produção):** [https://ats-resume-generator-dio.vercel.app/](https://ats-resume-generator-dio.vercel.app/)
 - 💻 **Repositório do Código:** [https://github.com/Rafael-TOZATO/ATS-Resume-Gerador-DIO](https://github.com/Rafael-TOZATO/ATS-Resume-Gerador-DIO)
+
+---
 
 ---
 
@@ -42,6 +46,8 @@ O **ATS Resume Optimizer Pro** é uma aplicação web corporativa criada para re
 
 ---
 
+---
+
 ## 🛠️ Engenharia de Contorno & Troubleshooting (Narrativa Técnica)
 
 Durante o desenvolvimento deste desafio, identificou-se um impedimento de cota/créditos na plataforma inicial prevista.
@@ -53,12 +59,16 @@ Em alinhamento com a postura profissional, autônoma e resiliente exigida na eng
 
 ---
 
+---
+
 ## ☁️ Homologação e Ambiente Nuvem
 
 Esta aplicação foi importada e homologada no ambiente de execução em nuvem **Replit**, onde foram validados com sucesso:
 - Instalação automatizada de dependências e configuração do gerenciador de pacotes (`pnpm`).
 - Compilação e tipagem correta via TypeScript.
 - Inicialização do servidor de desenvolvimento na porta 3000 com resposta `HTTP 200` garantida na pré-visualização web.
+
+---
 
 ---
 
@@ -97,8 +107,6 @@ Criar uma SPA corporativa em React, Tailwind CSS e componentes shadcn/ui para an
 - **GitHub:** [Rafael-TOZATO](https://github.com/Rafael-TOZATO)
 - **Dev Hub:** [tozato-ai-core.vercel.app](https://tozato-ai-core.vercel.app)
 
-
-
 ---
 
 ## Governança 4.0 — Segurança e Qualidade
@@ -119,3 +127,16 @@ O projeto aplica controles de Governança 4.0 para garantir integridade da cadei
 [![Dependency Review](https://img.shields.io/github/actions/workflow/status/Rafael-TOZATO/ats-resume-generator-dio/dependency-review.yml?branch=main&label=Dependency%20Review)](https://github.com/Rafael-TOZATO/ats-resume-generator-dio/actions/workflows/dependency-review.yml)
 
 </div>
+
+---
+
+## Governança 4.0 — Segurança e Qualidade
+
+Este repositório adota controles automatizados de Governança 4.0 para assegurar integridade dos artefatos e do código, rastreabilidade das alterações, gestão de dependências e prevenção de exposição de credenciais. Os controles são aplicados conforme a natureza técnica e os componentes efetivamente mantidos no projeto.
+
+- **Quality Gate:** validação automatizada do escopo do repositório, incluindo verificações de integridade, testes, análise estática, tipagem ou build quando aplicáveis.
+- **Segurança de segredos:** varredura do histórico Git com Gitleaks Action v3.0.0.
+- **SAST:** análise com GitHub CodeQL para linguagens suportadas e presentes no código-fonte.
+- **Dependências:** monitoramento automatizado e revisão de vulnerabilidades conforme os manifests e lockfiles existentes.
+- **Menor privilégio:** permissões mínimas nos workflows e checkout sem persistência desnecessária de credenciais.
+- **Rastreabilidade:** commits, execuções e resultados dos controles permanecem registrados no GitHub Actions.
