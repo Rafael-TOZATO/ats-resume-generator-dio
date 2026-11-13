@@ -23,13 +23,6 @@
 
 ---
 
-## 🔗 Links Oficiais do Projeto
-
-- 🌐 **Aplicação Online (Deploy em Produção):** [https://ats-resume-generator-dio.vercel.app/](https://ats-resume-generator-dio.vercel.app/)
-- 💻 **Repositório do Código:** [https://github.com/Rafael-TOZATO/ATS-Resume-Gerador-DIO](https://github.com/Rafael-TOZATO/ATS-Resume-Gerador-DIO)
-
----
-
 ---
 
 ## 🎯 Sobre o Projeto
@@ -48,6 +41,8 @@ O **ATS Resume Optimizer Pro** é uma aplicação web corporativa criada para re
 
 ---
 
+---
+
 ## 🛠️ Engenharia de Contorno & Troubleshooting (Narrativa Técnica)
 
 Durante o desenvolvimento deste desafio, identificou-se um impedimento de cota/créditos na plataforma inicial prevista.
@@ -61,12 +56,16 @@ Em alinhamento com a postura profissional, autônoma e resiliente exigida na eng
 
 ---
 
+---
+
 ## ☁️ Homologação e Ambiente Nuvem
 
 Esta aplicação foi importada e homologada no ambiente de execução em nuvem **Replit**, onde foram validados com sucesso:
 - Instalação automatizada de dependências e configuração do gerenciador de pacotes (`pnpm`).
 - Compilação e tipagem correta via TypeScript.
 - Inicialização do servidor de desenvolvimento na porta 3000 com resposta `HTTP 200` garantida na pré-visualização web.
+
+---
 
 ---
 
@@ -140,3 +139,12 @@ Este repositório adota controles automatizados de Governança 4.0 para assegura
 - **Dependências:** monitoramento automatizado e revisão de vulnerabilidades conforme os manifests e lockfiles existentes.
 - **Menor privilégio:** permissões mínimas nos workflows e checkout sem persistência desnecessária de credenciais.
 - **Rastreabilidade:** commits, execuções e resultados dos controles permanecem registrados no GitHub Actions.
+
+---
+
+## 📬 CONTATOS E PERFIS
+
+- 🌐 **Aplicação Online (Deploy em Produção):** [https://ats-resume-generator-dio.vercel.app/](https://ats-resume-generator-dio.vercel.app/)
+- 💻 **Repositório do Código:** [https://github.com/Rafael-TOZATO/ATS-Resume-Gerador-DIO](https://github.com/Rafael-TOZATO/ATS-Resume-Gerador-DIO)
+
+---
