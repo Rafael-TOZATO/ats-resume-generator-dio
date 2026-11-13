@@ -97,3 +97,25 @@ Criar uma SPA corporativa em React, Tailwind CSS e componentes shadcn/ui para an
 - **GitHub:** [Rafael-TOZATO](https://github.com/Rafael-TOZATO)
 - **Dev Hub:** [tozato-ai-core.vercel.app](https://tozato-ai-core.vercel.app)
 
+
+
+---
+
+## Governança 4.0 — Segurança e Qualidade
+
+O projeto aplica controles de Governança 4.0 para garantir integridade da cadeia de suprimentos, rastreabilidade e qualidade do ciclo de entrega.
+
+- **Quality Gate:** instalação reproduzível, auditoria de dependências, verificação TypeScript e build de produção.
+- **SAST:** análise de JavaScript e TypeScript com GitHub CodeQL e consultas de segurança estendida.
+- **Dependency Review:** análise de alterações de dependências em pull requests, com bloqueio de vulnerabilidades de alta severidade.
+- **Segurança de segredos:** varredura integral do histórico Git com Gitleaks Action v3.0.0.
+- **Menor privilégio:** permissões mínimas e checkout sem persistência de credenciais.
+
+<div align="center">
+
+[![Quality Gate](https://img.shields.io/github/actions/workflow/status/Rafael-TOZATO/ats-resume-generator-dio/quality-gate.yml?branch=main&label=Quality%20Gate)](https://github.com/Rafael-TOZATO/ats-resume-generator-dio/actions/workflows/quality-gate.yml)
+[![Gitleaks](https://img.shields.io/github/actions/workflow/status/Rafael-TOZATO/ats-resume-generator-dio/gitleaks.yml?branch=main&label=Gitleaks)](https://github.com/Rafael-TOZATO/ats-resume-generator-dio/actions/workflows/gitleaks.yml)
+[![CodeQL](https://img.shields.io/github/actions/workflow/status/Rafael-TOZATO/ats-resume-generator-dio/codeql.yml?branch=main&label=CodeQL)](https://github.com/Rafael-TOZATO/ats-resume-generator-dio/actions/workflows/codeql.yml)
+[![Dependency Review](https://img.shields.io/github/actions/workflow/status/Rafael-TOZATO/ats-resume-generator-dio/dependency-review.yml?branch=main&label=Dependency%20Review)](https://github.com/Rafael-TOZATO/ats-resume-generator-dio/actions/workflows/dependency-review.yml)
+
+</div>
