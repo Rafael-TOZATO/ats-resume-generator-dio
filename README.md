@@ -99,11 +99,6 @@ Criar uma SPA corporativa em React, Tailwind CSS e componentes shadcn/ui para an
 
 ---
 
-## 🪟 MICROSOFT LEARN
-- **Perfil:** [rafaelornelastozato-2209](https://learn.microsoft.com/pt-br/users/rafaelornelastozato-2209)
-
----
-
 ## Governança 4.0 — Segurança e Qualidade
 
 Este repositório adota controles automatizados de Governança 4.0 para assegurar integridade dos artefatos e do código, rastreabilidade das alterações, gestão de dependências e prevenção de exposição de credenciais, aplicados conforme o escopo técnico do projeto.
@@ -137,6 +132,13 @@ Este repositório adota controles automatizados de Governança 4.0 para assegura
 [![Dependency Review](https://img.shields.io/github/actions/workflow/status/Rafael-TOZATO/ats-resume-generator-dio/dependency-review.yml?branch=main&label=Dependency%20Review)](https://github.com/Rafael-TOZATO/ats-resume-generator-dio/actions/workflows/dependency-review.yml)
 
 </div>
+
+---
+
+### Microsoft Learn
+
+## 🪟 MICROSOFT LEARN
+- **Perfil:** [rafaelornelastozato-2209](https://learn.microsoft.com/pt-br/users/rafaelornelastozato-2209)
 
 ---
 
