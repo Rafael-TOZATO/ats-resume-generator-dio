@@ -124,6 +124,13 @@ Este repositório adota controles automatizados de Governança 4.0 para assegura
 - **Menor privilégio:** permissões mínimas nos workflows e checkout sem persistência desnecessária de credenciais.
 - **Rastreabilidade:** commits, execuções e resultados dos controles permanecem registrados no GitHub Actions.
 
+
+
+
+---
+
+### Microsoft Learn
+
 <div align="center">
 
 [![Quality Gate](https://img.shields.io/github/actions/workflow/status/Rafael-TOZATO/ats-resume-generator-dio/quality-gate.yml?branch=main&label=Quality%20Gate)](https://github.com/Rafael-TOZATO/ats-resume-generator-dio/actions/workflows/quality-gate.yml)
@@ -135,14 +142,10 @@ Este repositório adota controles automatizados de Governança 4.0 para assegura
 
 ---
 
-### Microsoft Learn
-
-## 🪟 MICROSOFT LEARN
-- **Perfil:** [rafaelornelastozato-2209](https://learn.microsoft.com/pt-br/users/rafaelornelastozato-2209)
-
----
-
 ## 📬 CONTATOS E PERFIS
+
+### Microsoft Learn
+- **Perfil:** [rafaelornelastozato-2209](https://learn.microsoft.com/pt-br/users/rafaelornelastozato-2209)
 
 - **App Ecosystem:** [tozato-ai-core.vercel.app](https://tozato-ai-core.vercel.app)
 - **H-Folio:** [h-folio-l0.vercel.app](https://h-folio-l0.vercel.app)
