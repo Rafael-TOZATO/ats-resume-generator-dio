@@ -25,6 +25,8 @@
 
 ---
 
+---
+
 ## 🎯 Sobre o Projeto
 
 O **ATS Resume Optimizer Pro** é uma aplicação web corporativa criada para resolver um dos maiores desafios de candidatos no mercado de trabalho atual: a aprovação em **Sistemas de Rastreamento de Candidatos (ATS - Applicant Tracking Systems)**.
@@ -36,6 +38,8 @@ O **ATS Resume Optimizer Pro** é uma aplicação web corporativa criada para re
    - Realce de termos-chave encontrados (destaque verde) e lacunas pendentes (destaque vermelho/âmbar).
 3. **Gerador Dinâmico de `.docx`:** Exportação instantânea e formatada diretamente no navegador via biblioteca `docx`.
 4. **Governança e Ética Profissional:** Mecanismos de alerta e orientação reforçando que a ferramenta otimiza a apresentação sem falsificar qualificações.
+
+---
 
 ---
 
@@ -58,12 +62,16 @@ Em alinhamento com a postura profissional, autônoma e resiliente exigida na eng
 
 ---
 
+---
+
 ## ☁️ Homologação e Ambiente Nuvem
 
 Esta aplicação foi importada e homologada no ambiente de execução em nuvem **Replit**, onde foram validados com sucesso:
 - Instalação automatizada de dependências e configuração do gerenciador de pacotes (`pnpm`).
 - Compilação e tipagem correta via TypeScript.
 - Inicialização do servidor de desenvolvimento na porta 3000 com resposta `HTTP 200` garantida na pré-visualização web.
+
+---
 
 ---
 
@@ -85,38 +93,41 @@ Criar uma SPA corporativa em React, Tailwind CSS e componentes shadcn/ui para an
 3. Aba 2: Editor & Otimizador ATS (Comparador 2 colunas, termos encontrados/pendentes, exportador .docx).
 4. Aba 3: Sobre o Projeto & Resiliência.
 
+```
+
 ---
 
-## 💻 PROJETOS E PORTFÓLIOS
-- **App Ecosystem:** [tozato-ai-core.vercel.app](https://tozato-ai-core.vercel.app)
-- **H-Folio:** [h-folio-l0.vercel.app](https://h-folio-l0.vercel.app)
-
-## 🐙 CÓDIGO E REPOSITÓRIOS
-- **GitHub:** [github.com/Rafael-TOZATO](https://github.com/Rafael-TOZATO)
-
-## ✍️ ARTIGOS E PUBLICAÇÕES
-- **Medium:** [medium.com/@ornelas.tozato](https://medium.com/@ornelas.tozato)
+---
 
 ## 🪟 MICROSOFT LEARN
 - **Perfil:** [rafaelornelastozato-2209](https://learn.microsoft.com/pt-br/users/rafaelornelastozato-2209)
-
-## 📬 CONTATOS
-- **E-mail:** ornelas.tozato@gmail.com
-- **LinkedIn:** [rafaeltozato81](https://www.linkedin.com/in/rafaeltozato81)
-- **GitHub:** [Rafael-TOZATO](https://github.com/Rafael-TOZATO)
-- **Dev Hub:** [tozato-ai-core.vercel.app](https://tozato-ai-core.vercel.app)
 
 ---
 
 ## Governança 4.0 — Segurança e Qualidade
 
-O projeto aplica controles de Governança 4.0 para garantir integridade da cadeia de suprimentos, rastreabilidade e qualidade do ciclo de entrega.
+Este repositório adota controles automatizados de Governança 4.0 para assegurar integridade dos artefatos e do código, rastreabilidade das alterações, gestão de dependências e prevenção de exposição de credenciais, aplicados conforme o escopo técnico do projeto.
+
+- **Quality Gate:** validação automatizada do escopo do repositório, incluindo integridade, testes, análise estática, tipagem ou build quando aplicáveis.
+- **Segurança de segredos:** varredura do histórico Git com Gitleaks Action v3.0.0.
+- **SAST:** análise com GitHub CodeQL para linguagens suportadas e presentes no código-fonte.
+- **Dependências:** monitoramento automatizado e revisão de vulnerabilidades conforme manifests e lockfiles existentes.
+- **Menor privilégio:** permissões mínimas nos workflows e checkout sem persistência desnecessária de credenciais.
+- **Rastreabilidade:** commits, execuções e resultados dos controles registrados no GitHub Actions.
+
+### Controles específicos do repositório
 
 - **Quality Gate:** instalação reproduzível, auditoria de dependências, verificação TypeScript e build de produção.
 - **SAST:** análise de JavaScript e TypeScript com GitHub CodeQL e consultas de segurança estendida.
 - **Dependency Review:** análise de alterações de dependências em pull requests, com bloqueio de vulnerabilidades de alta severidade.
 - **Segurança de segredos:** varredura integral do histórico Git com Gitleaks Action v3.0.0.
 - **Menor privilégio:** permissões mínimas e checkout sem persistência de credenciais.
+- **Quality Gate:** validação automatizada do escopo do repositório, incluindo verificações de integridade, testes, análise estática, tipagem ou build quando aplicáveis.
+- **Segurança de segredos:** varredura do histórico Git com Gitleaks Action v3.0.0.
+- **SAST:** análise com GitHub CodeQL para linguagens suportadas e presentes no código-fonte.
+- **Dependências:** monitoramento automatizado e revisão de vulnerabilidades conforme os manifests e lockfiles existentes.
+- **Menor privilégio:** permissões mínimas nos workflows e checkout sem persistência desnecessária de credenciais.
+- **Rastreabilidade:** commits, execuções e resultados dos controles permanecem registrados no GitHub Actions.
 
 <div align="center">
 
@@ -129,22 +140,17 @@ O projeto aplica controles de Governança 4.0 para garantir integridade da cadei
 
 ---
 
-## Governança 4.0 — Segurança e Qualidade
-
-Este repositório adota controles automatizados de Governança 4.0 para assegurar integridade dos artefatos e do código, rastreabilidade das alterações, gestão de dependências e prevenção de exposição de credenciais. Os controles são aplicados conforme a natureza técnica e os componentes efetivamente mantidos no projeto.
-
-- **Quality Gate:** validação automatizada do escopo do repositório, incluindo verificações de integridade, testes, análise estática, tipagem ou build quando aplicáveis.
-- **Segurança de segredos:** varredura do histórico Git com Gitleaks Action v3.0.0.
-- **SAST:** análise com GitHub CodeQL para linguagens suportadas e presentes no código-fonte.
-- **Dependências:** monitoramento automatizado e revisão de vulnerabilidades conforme os manifests e lockfiles existentes.
-- **Menor privilégio:** permissões mínimas nos workflows e checkout sem persistência desnecessária de credenciais.
-- **Rastreabilidade:** commits, execuções e resultados dos controles permanecem registrados no GitHub Actions.
-
----
-
 ## 📬 CONTATOS E PERFIS
 
-- 🌐 **Aplicação Online (Deploy em Produção):** [https://ats-resume-generator-dio.vercel.app/](https://ats-resume-generator-dio.vercel.app/)
-- 💻 **Repositório do Código:** [https://github.com/Rafael-TOZATO/ATS-Resume-Gerador-DIO](https://github.com/Rafael-TOZATO/ATS-Resume-Gerador-DIO)
+- **App Ecosystem:** [tozato-ai-core.vercel.app](https://tozato-ai-core.vercel.app)
+- **H-Folio:** [h-folio-l0.vercel.app](https://h-folio-l0.vercel.app)
+- **GitHub:** [github.com/Rafael-TOZATO](https://github.com/Rafael-TOZATO)
+- **Medium:** [medium.com/@ornelas.tozato](https://medium.com/@ornelas.tozato)
+- **E-mail:** ornelas.tozato@gmail.com
+- **LinkedIn:** [rafaeltozato81](https://www.linkedin.com/in/rafaeltozato81)
+- **GitHub:** [Rafael-TOZATO](https://github.com/Rafael-TOZATO)
+- **Dev Hub:** [tozato-ai-core.vercel.app](https://tozato-ai-core.vercel.app)
 
 ---
+- 🌐 **Aplicação Online (Deploy em Produção):** [https://ats-resume-generator-dio.vercel.app/](https://ats-resume-generator-dio.vercel.app/)
+- 💻 **Repositório do Código:** [https://github.com/Rafael-TOZATO/ATS-Resume-Gerador-DIO](https://github.com/Rafael-TOZATO/ATS-Resume-Gerador-DIO)
