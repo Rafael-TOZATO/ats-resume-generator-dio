@@ -19,8 +19,6 @@
   <img src="https://img.shields.io/badge/DIO-Challenge-orange?style=for-the-badge" alt="DIO Challenge">
 </p>
 
----
-
 ## 🎯 Sobre o Projeto
 
 O **ATS Resume Optimizer Pro** é uma aplicação web corporativa criada para resolver um dos maiores desafios de candidatos no mercado de trabalho atual: a aprovação em **Sistemas de Rastreamento de Candidatos (ATS - Applicant Tracking Systems)**.
@@ -33,8 +31,6 @@ O **ATS Resume Optimizer Pro** é uma aplicação web corporativa criada para re
 3. **Gerador Dinâmico de `.docx`:** Exportação instantânea e formatada diretamente no navegador via biblioteca `docx`.
 4. **Governança e Ética Profissional:** Mecanismos de alerta e orientação reforçando que a ferramenta otimiza a apresentação sem falsificar qualificações.
 
----
-
 ## 🛠️ Engenharia de Contorno & Troubleshooting (Narrativa Técnica)
 
 Durante o desenvolvimento deste desafio, identificou-se um impedimento de cota/créditos na plataforma inicial prevista.
@@ -44,16 +40,12 @@ Em alinhamento com a postura profissional, autônoma e resiliente exigida na eng
 2. **Migração Paritária:** Execução limpa do Mega Prompt na engine de alta performance **v0.dev (Vercel)**, garantindo 100% de paridade técnica na stack (React, Tailwind CSS, `shadcn/ui` e TypeScript).
 3. **Pipeline CI/CD Automático:** Sincronização direta com o ecossistema GitHub e publicação contínua em ambiente de produção na Vercel.
 
----
-
 ## ☁️ Homologação e Ambiente Nuvem
 
 Esta aplicação foi importada e homologada no ambiente de execução em nuvem **Replit**, onde foram validados com sucesso:
 - Instalação automatizada de dependências e configuração do gerenciador de pacotes (`pnpm`).
 - Compilação e tipagem correta via TypeScript.
 - Inicialização do servidor de desenvolvimento na porta 3000 com resposta `HTTP 200` garantida na pré-visualização web.
-
----
 
 ## 📬 CONTATOS E PERFIS
 
@@ -88,8 +80,6 @@ Criar uma SPA corporativa em React, Tailwind CSS e componentes shadcn/ui para an
 3. Aba 2: Editor & Otimizador ATS (Comparador 2 colunas, termos encontrados/pendentes, exportador .docx).
 4. Aba 3: Sobre o Projeto & Resiliência.
 
----
-
 ## Governança 4.0 — Segurança e Qualidade
 
 Este repositório adota controles automatizados de Governança 4.0 para assegurar integridade dos artefatos e do código, rastreabilidade das alterações, gestão de dependências e prevenção de exposição de credenciais, aplicados conforme o escopo técnico do projeto.
@@ -115,8 +105,6 @@ Este repositório adota controles automatizados de Governança 4.0 para assegura
 - **Menor privilégio:** permissões mínimas nos workflows e checkout sem persistência desnecessária de credenciais.
 - **Rastreabilidade:** commits, execuções e resultados dos controles permanecem registrados no GitHub Actions.
 
----
-
 ### Microsoft Learn
 
 <div align="center">
@@ -125,24 +113,3 @@ Este repositório adota controles automatizados de Governança 4.0 para assegura
 [![Gitleaks](https://img.shields.io/github/actions/workflow/status/Rafael-TOZATO/ats-resume-generator-dio/gitleaks.yml?branch=main&label=Gitleaks)](https://github.com/Rafael-TOZATO/ats-resume-generator-dio/actions/workflows/gitleaks.yml)
 [![CodeQL](https://img.shields.io/github/actions/workflow/status/Rafael-TOZATO/ats-resume-generator-dio/codeql.yml?branch=main&label=CodeQL)](https://github.com/Rafael-TOZATO/ats-resume-generator-dio/actions/workflows/codeql.yml)
 [![Dependency Review](https://img.shields.io/github/actions/workflow/status/Rafael-TOZATO/ats-resume-generator-dio/dependency-review.yml?branch=main&label=Dependency%20Review)](https://github.com/Rafael-TOZATO/ats-resume-generator-dio/actions/workflows/dependency-review.yml)
-
-</div>
-
----
-
-## 📬 CONTATOS E PERFIS
-
-### Microsoft Learn
-- **Perfil:** [rafaelornelastozato-2209](https://learn.microsoft.com/pt-br/users/rafaelornelastozato-2209)
-
-- **App Ecosystem:** [tozato-ai-core.vercel.app](https://tozato-ai-core.vercel.app)
-- **H-Folio:** [h-folio-l0.vercel.app](https://h-folio-l0.vercel.app)
-- **GitHub:** [github.com/Rafael-TOZATO](https://github.com/Rafael-TOZATO)
-- **Medium:** [medium.com/@ornelas.tozato](https://medium.com/@ornelas.tozato)
-- **E-mail:** ornelas.tozato@gmail.com
-- **LinkedIn:** [rafaeltozato81](https://www.linkedin.com/in/rafaeltozato81)
-- **GitHub:** [Rafael-TOZATO](https://github.com/Rafael-TOZATO)
-- **Dev Hub:** [tozato-ai-core.vercel.app](https://tozato-ai-core.vercel.app)
-
-- 🌐 **Aplicação Online (Deploy em Produção):** [https://ats-resume-generator-dio.vercel.app/](https://ats-resume-generator-dio.vercel.app/)
-- 💻 **Repositório do Código:** [https://github.com/Rafael-TOZATO/ATS-Resume-Gerador-DIO](https://github.com/Rafael-TOZATO/ATS-Resume-Gerador-DIO)
