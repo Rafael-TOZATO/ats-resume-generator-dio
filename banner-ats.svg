@@ -1,0 +1,238 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 320" width="100%" height="auto" role="img" aria-label="ATS Resume Optimizer Pro - Portfólio Profissional V2.4.0">
+  <defs>
+    <style>
+      @keyframes fadeSlide {
+        0% { opacity: 0; transform: translateY(8px); }
+        100% { opacity: 1; transform: translateY(0); }
+      }
+      @keyframes pulseHalo {
+        0%, 100% { opacity: 0.25; transform: scale(1); }
+        50% { opacity: 0.75; transform: scale(1.35); }
+      }
+      @keyframes pulseDot {
+        0%, 100% { opacity: 1; }
+        50% { opacity: 0.4; }
+      }
+      @keyframes barBreath {
+        0%, 100% { opacity: 0.38; transform: scaleY(0.92); }
+        50% { opacity: 0.72; transform: scaleY(1); }
+      }
+      @keyframes proGlow {
+        0%, 100% { opacity: 0.92; }
+        50% { opacity: 1; }
+      }
+
+      .anim-1 { animation: fadeSlide 0.65s ease-out 0.05s both; }
+      .anim-2 { animation: fadeSlide 0.65s ease-out 0.18s both; }
+      .anim-3 { animation: fadeSlide 0.65s ease-out 0.30s both; }
+      .anim-4 { animation: fadeSlide 0.65s ease-out 0.42s both; }
+
+      .halo-pulse {
+        transform-box: fill-box;
+        transform-origin: center;
+        animation: pulseHalo 2.8s ease-in-out infinite;
+      }
+      .status-dot {
+        animation: pulseDot 2s ease-in-out infinite;
+      }
+      .bar-1, .bar-2, .bar-3, .bar-4, .bar-5, .bar-6, .bar-7 {
+        transform-box: fill-box;
+        transform-origin: bottom;
+        animation: barBreath 3.6s ease-in-out infinite;
+      }
+      .bar-2 { animation-delay: 0.35s; }
+      .bar-3 { animation-delay: 0.7s; }
+      .bar-4 { animation-delay: 1.05s; }
+      .bar-5 { animation-delay: 1.4s; }
+      .bar-6 { animation-delay: 1.75s; }
+      .bar-7 { animation-delay: 2.1s; }
+      .pro-text { animation: proGlow 3s ease-in-out infinite; }
+    </style>
+
+    <linearGradient id="bgMain" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#050b16"/>
+      <stop offset="52%" stop-color="#0a1628"/>
+      <stop offset="100%" stop-color="#0c2036"/>
+    </linearGradient>
+
+    <linearGradient id="cardBorder" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#38bdf8" stop-opacity="0.45"/>
+      <stop offset="50%" stop-color="#1e3a5f" stop-opacity="0.35"/>
+      <stop offset="100%" stop-color="#34eab8" stop-opacity="0.5"/>
+    </linearGradient>
+
+    <linearGradient id="iconGlass" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#132642" stop-opacity="0.95"/>
+      <stop offset="100%" stop-color="#081324" stop-opacity="0.98"/>
+    </linearGradient>
+
+    <linearGradient id="iconBorder" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#94a3b8" stop-opacity="0.55"/>
+      <stop offset="50%" stop-color="#38bdf8" stop-opacity="0.25"/>
+      <stop offset="100%" stop-color="#34eab8" stop-opacity="0.6"/>
+    </linearGradient>
+
+    <linearGradient id="silverMetal" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#ffffff"/>
+      <stop offset="50%" stop-color="#cbd5e1"/>
+      <stop offset="100%" stop-color="#64748b"/>
+    </linearGradient>
+
+    <linearGradient id="proGrad" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#34eab8"/>
+      <stop offset="100%" stop-color="#2dd4bf"/>
+    </linearGradient>
+
+    <linearGradient id="accentLine" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#38bdf8" stop-opacity="0.9"/>
+      <stop offset="65%" stop-color="#34eab8" stop-opacity="0.85"/>
+      <stop offset="100%" stop-color="#34eab8" stop-opacity="0"/>
+    </linearGradient>
+
+    <linearGradient id="curveGrad" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#38bdf8"/>
+      <stop offset="60%" stop-color="#2dd4bf"/>
+      <stop offset="100%" stop-color="#34eab8"/>
+    </linearGradient>
+
+    <linearGradient id="areaFill" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" stop-color="#34eab8" stop-opacity="0.26"/>
+      <stop offset="70%" stop-color="#38bdf8" stop-opacity="0.07"/>
+      <stop offset="100%" stop-color="#091526" stop-opacity="0"/>
+    </linearGradient>
+
+    <linearGradient id="barGrad" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" stop-color="#38bdf8" stop-opacity="0.6"/>
+      <stop offset="100%" stop-color="#0f2947" stop-opacity="0.2"/>
+    </linearGradient>
+
+    <linearGradient id="sheenGrad" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#34eab8" stop-opacity="0"/>
+      <stop offset="50%" stop-color="#ffffff" stop-opacity="0.06"/>
+      <stop offset="100%" stop-color="#38bdf8" stop-opacity="0"/>
+    </linearGradient>
+
+    <radialGradient id="glowLeft" cx="50%" cy="50%" r="50%">
+      <stop offset="0%" stop-color="#38bdf8" stop-opacity="0.18"/>
+      <stop offset="100%" stop-color="#38bdf8" stop-opacity="0"/>
+    </radialGradient>
+
+    <radialGradient id="glowRight" cx="50%" cy="50%" r="50%">
+      <stop offset="0%" stop-color="#34eab8" stop-opacity="0.18"/>
+      <stop offset="100%" stop-color="#34eab8" stop-opacity="0"/>
+    </radialGradient>
+
+    <pattern id="techGrid" width="32" height="32" patternUnits="userSpaceOnUse">
+      <path d="M 32 0 L 0 0 0 32" fill="none" stroke="#38bdf8" stroke-opacity="0.045" stroke-width="1"/>
+    </pattern>
+
+    <clipPath id="bannerClip">
+      <rect x="4" y="4" width="1192" height="312" rx="18"/>
+    </clipPath>
+  </defs>
+
+  <!-- Container Principal Dark Mode -->
+  <rect x="4" y="4" width="1192" height="312" rx="18" fill="url(#bgMain)" stroke="url(#cardBorder)" stroke-width="1.5"/>
+
+  <g clip-path="url(#bannerClip)">
+    <!-- Grid Técnico Discreto -->
+    <rect x="4" y="4" width="1192" height="312" fill="url(#techGrid)"/>
+
+    <!-- Luzes Ambientais -->
+    <circle cx="150" cy="160" r="160" fill="url(#glowLeft)"/>
+    <circle cx="980" cy="155" r="210" fill="url(#glowRight)"/>
+
+    <!-- Varredura Luminosa Sutil -->
+    <polygon points="-240,0 -90,0 -190,320 -340,320" fill="url(#sheenGrad)">
+      <animateTransform attributeName="transform" type="translate" from="0 0" to="1650 0" dur="6.5s" repeatCount="indefinite"/>
+    </polygon>
+
+    <!-- Emblema Esquerdo: Card Glass + Logo "A" -->
+    <g class="anim-1">
+      <rect x="64" y="74" width="172" height="172" rx="28" fill="url(#iconGlass)" stroke="url(#iconBorder)" stroke-width="1.5"/>
+      <rect x="70" y="80" width="160" height="160" rx="23" fill="none" stroke="#ffffff" stroke-opacity="0.05" stroke-width="1"/>
+
+      <!-- Halo sutil atrás do A -->
+      <circle cx="150" cy="160" r="46" fill="#34eab8" fill-opacity="0.08" class="halo-pulse"/>
+
+      <!-- Letra A estilizada -->
+      <g transform="translate(150, 162)">
+        <path d="M -36,40 L -6,-38 Q 0,-50 6,-38 L 36,40" fill="none" stroke="url(#silverMetal)" stroke-width="13" stroke-linecap="round" stroke-linejoin="round"/>
+        <path d="M -42,14 Q -4,-6 44,2" fill="none" stroke="url(#proGrad)" stroke-width="9.5" stroke-linecap="round"/>
+        <circle cx="44" cy="2" r="4" fill="#34eab8" class="status-dot"/>
+      </g>
+    </g>
+
+    <!-- Bloco Tipográfico Principal -->
+    <g font-family="'Segoe UI', -apple-system, BlinkMacSystemFont, Roboto, Helvetica, Arial, sans-serif">
+      <g class="anim-2">
+        <text x="278" y="124" font-size="52" font-weight="800" fill="#f8fafc" letter-spacing="1.5">
+          ATS RESUME
+        </text>
+        <text x="278" y="180" font-size="52" font-weight="800" letter-spacing="1.5">
+          <tspan fill="#f8fafc">OPTIMIZER </tspan>
+          <tspan fill="url(#proGrad)" class="pro-text">PRO</tspan>
+        </text>
+      </g>
+
+      <!-- Linha Conectora com Fluxo Discreto -->
+      <g class="anim-3">
+        <line x1="278" y1="204" x2="725" y2="204" stroke="#1e3a5f" stroke-opacity="0.65" stroke-width="2"/>
+        <line x1="278" y1="204" x2="725" y2="204" stroke="url(#accentLine)" stroke-width="2" stroke-dasharray="140 310">
+          <animate attributeName="stroke-dashoffset" from="450" to="0" dur="4s" repeatCount="indefinite"/>
+        </line>
+
+        <text x="278" y="240" font-size="19" font-weight="600" fill="#cbd5e1" letter-spacing="4.8">
+          PORTFÓLIO PROFISSIONAL
+        </text>
+      </g>
+    </g>
+
+    <!-- Painel Analítico Direito (Gráficos de Barras e Curva Ascendente) -->
+    <g class="anim-3">
+      <rect x="768" y="48" width="376" height="194" rx="14" fill="#081324" fill-opacity="0.72" stroke="#1e3a5f" stroke-opacity="0.65" stroke-width="1"/>
+
+      <!-- Linhas horizontais de referência -->
+      <line x1="786" y1="88" x2="1126" y2="88" stroke="#38bdf8" stroke-opacity="0.08" stroke-width="1"/>
+      <line x1="786" y1="128" x2="1126" y2="128" stroke="#38bdf8" stroke-opacity="0.08" stroke-width="1"/>
+      <line x1="786" y1="168" x2="1126" y2="168" stroke="#38bdf8" stroke-opacity="0.08" stroke-width="1"/>
+      <line x1="786" y1="208" x2="1126" y2="208" stroke="#38bdf8" stroke-opacity="0.12" stroke-width="1"/>
+
+      <!-- Barras analíticas de fundo -->
+      <rect x="798" y="168" width="22" height="50" rx="4" fill="url(#barGrad)" class="bar-1"/>
+      <rect x="844" y="148" width="22" height="70" rx="4" fill="url(#barGrad)" class="bar-2"/>
+      <rect x="890" y="156" width="22" height="62" rx="4" fill="url(#barGrad)" class="bar-3"/>
+      <rect x="936" y="124" width="22" height="94" rx="4" fill="url(#barGrad)" class="bar-4"/>
+      <rect x="982" y="132" width="22" height="86" rx="4" fill="url(#barGrad)" class="bar-5"/>
+      <rect x="1028" y="102" width="22" height="116" rx="4" fill="url(#barGrad)" class="bar-6"/>
+      <rect x="1074" y="88" width="22" height="130" rx="4" fill="url(#barGrad)" class="bar-7"/>
+
+      <!-- Área preenchida sob a curva -->
+      <path d="M 792,202 C 835,196 855,160 895,164 C 935,168 955,126 995,134 C 1035,142 1065,86 1118,74 L 1118,218 L 792,218 Z"
+            fill="url(#areaFill)"/>
+
+      <!-- Curva principal e fluxo de sinal -->
+      <path d="M 792,202 C 835,196 855,160 895,164 C 935,168 955,126 995,134 C 1035,142 1065,86 1118,74"
+            fill="none" stroke="url(#curveGrad)" stroke-width="2.6" stroke-linecap="round"/>
+
+      <path d="M 792,202 C 835,196 855,160 895,164 C 935,168 955,126 995,134 C 1035,142 1065,86 1118,74"
+            fill="none" stroke="#ffffff" stroke-opacity="0.7" stroke-width="2.6" stroke-linecap="round" stroke-dasharray="55 340">
+        <animate attributeName="stroke-dashoffset" from="395" to="0" dur="3.8s" repeatCount="indefinite"/>
+      </path>
+
+      <!-- Nó luminoso no pico da curva -->
+      <circle cx="1118" cy="74" r="11" fill="#34eab8" fill-opacity="0.3" class="halo-pulse"/>
+      <circle cx="1118" cy="74" r="4.5" fill="#34eab8"/>
+      <circle cx="1118" cy="74" r="2" fill="#ffffff"/>
+    </g>
+
+    <!-- Badge de Versão V2.4.0 -->
+    <g class="anim-4">
+      <rect x="1038" y="258" width="106" height="32" rx="16" fill="#09182d" stroke="#34eab8" stroke-opacity="0.5" stroke-width="1.2"/>
+      <circle cx="1057" cy="274" r="3.5" fill="#34eab8" class="status-dot"/>
+      <text x="1098" y="279" text-anchor="middle" font-family="'Consolas', 'SFMono-Regular', ui-monospace, monospace" font-size="13.5" font-weight="700" fill="#e2e8f0" letter-spacing="1">
+        V2.4.0
+      </text>
+    </g>
+  </g>
+</svg>
