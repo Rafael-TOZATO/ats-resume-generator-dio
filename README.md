@@ -1,5 +1,5 @@
 <p align="center">
-  <img src="banner_ats_resume_optimizer_pro.jpg" alt="ATS Resume Optimizer Pro Banner" width="100%">
+  <img src="banner-ats.svg" alt="ATS Resume Optimizer Pro Banner" width="100%">
 </p>
 
 <h1 align="center">🚀 ATS Resume Optimizer Pro</h1>
