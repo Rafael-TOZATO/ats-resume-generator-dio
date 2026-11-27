@@ -47,22 +47,32 @@ Esta aplicação foi importada e homologada no ambiente de execução em nuvem *
 - Compilação e tipagem correta via TypeScript.
 - Inicialização do servidor de desenvolvimento na porta 3000 com resposta `HTTP 200` garantida na pré-visualização web.
 
+---
+
 ## 📬 CONTATOS E PERFIS
 
-💻 **PROJETOS E PORTFÓLIOS**
-* Ecossistema de Aplicativos: [tozato-ai-core.vercel.app](https://tozato-ai-core.vercel.app)
-* H-Folio Professional: [h-folio-I0.vercel.app](https://h-folio-I0.vercel.app)
+💻 **PROJECTS & PORTFOLIOS**
+* App Ecosystem / Dev Hub: https://tozato-ai-core.vercel.app
+* H-Folio Professional: https://h-folio-I0.vercel.app
 
-🐙 **CÓDIGOS E REPOSITÓRIOS**
-* GitHub: [github.com/Rafael-TOZATO](https://github.com/Rafael-TOZATO)
+🧩 **AGENSI**
+* Creator: https://www.agensi.io/creators/rafael-ornelas-tozato
 
-✍️ **ARTIGOS E PUBLICAÇÕES**
-* Medium: [medium.com/@ornelas.tozato](https://medium.com/@ornelas.tozato)
-* Comunidade DEV: [dev.to/rafaeltozato](https://dev.to/rafaeltozato)
+🐙 **CODES & REPOSITORIES**
+* GitHub: https://github.com/Rafael-TOZATO
 
-💼 **CONTATO**
-* LinkedIn: [linkedin.com/in/rafaeltozato81](https://www.linkedin.com/in/rafaeltozato81)
-* E-mail: ornelas.tozato@gmail.com
+✍️ **ARTICLES & PUBLICATIONS**
+* Medium: https://medium.com/@ornelas.tozato
+* DEV Community: https://dev.to/rafaeltozato
+
+🪟 **MICROSOFT LEARN**
+* Perfil: https://learn.microsoft.com/pt-br/users/rafaelornelastozato-2209
+
+💼 **LINKEDIN**
+* Perfil Profissional: https://www.linkedin.com/in/rafaeltozato81
+
+📬 **CONTACT**
+* E-mail: ornelas.tozato@gmail.com## 📬 CONTATOS E PERFIS
 
 ---
 
@@ -113,3 +123,5 @@ Este repositório adota controles automatizados de Governança 4.0 para assegura
 [![Gitleaks](https://img.shields.io/github/actions/workflow/status/Rafael-TOZATO/ats-resume-generator-dio/gitleaks.yml?branch=main&label=Gitleaks)](https://github.com/Rafael-TOZATO/ats-resume-generator-dio/actions/workflows/gitleaks.yml)
 [![CodeQL](https://img.shields.io/github/actions/workflow/status/Rafael-TOZATO/ats-resume-generator-dio/codeql.yml?branch=main&label=CodeQL)](https://github.com/Rafael-TOZATO/ats-resume-generator-dio/actions/workflows/codeql.yml)
 [![Dependency Review](https://img.shields.io/github/actions/workflow/status/Rafael-TOZATO/ats-resume-generator-dio/dependency-review.yml?branch=main&label=Dependency%20Review)](https://github.com/Rafael-TOZATO/ats-resume-generator-dio/actions/workflows/dependency-review.yml)
+
+
